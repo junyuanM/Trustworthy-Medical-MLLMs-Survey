@@ -4,14 +4,14 @@
   <img src="assets/logo.svg" width="176" alt="Trustworthy Medical MLLM shield logo"/>
 </p>
 
-# Awesome Trustworthy Medical MLLMs
+# Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmark
 
-<p><strong>A Structured Survey & Curated List of Trustworthy Medical Multimodal Large Language Models</strong><br/><sub>From clinical applications to responsible evaluation and deployment</sub></p>
+<p><strong>Official Repository for the Survey Paper</strong><br/><sub>Paper resources · structured taxonomy · curated literature · evaluation protocols</sub></p>
 
 <p>
-  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
-  <a href="https://github.com/junyuanM/Awesome-Trustworthy-Medical-MLLMs/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a?style=flat-square" alt="PRs Welcome"></a>
-  <img src="https://img.shields.io/github/stars/junyuanM/Awesome-Trustworthy-Medical-MLLMs?style=flat-square" alt="GitHub Stars">
+  <img src="https://img.shields.io/badge/Repository-Official%20Paper%20Companion-0f766e?style=flat-square" alt="Official paper companion repository">
+  <a href="https://github.com/junyuanM/Trustworthy-Medical-MLLMs-Survey/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a?style=flat-square" alt="PRs Welcome"></a>
+  <img src="https://img.shields.io/github/stars/junyuanM/Trustworthy-Medical-MLLMs-Survey?style=flat-square" alt="GitHub Stars">
   <img src="https://img.shields.io/badge/Last_Update-2026_Q3-2563eb?style=flat-square" alt="Last Updated 2026 Q3">
   <img src="https://img.shields.io/badge/Paper-In_Preparation-7c3aed?style=flat-square" alt="Paper in preparation">
   <img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square" alt="MIT License">
@@ -20,19 +20,19 @@
 <p>
   <a href="#1-clinical-landscape"><img src="https://img.shields.io/badge/Clinical_Landscape-1d4ed8?style=for-the-badge&logo=googlefit&logoColor=white" alt="Clinical Landscape"></a>
   <a href="#2-trustworthiness"><img src="https://img.shields.io/badge/Trustworthiness-0f766e?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Trustworthiness"></a>
-  <a href="#3-evaluation-and-benchmarks"><img src="https://img.shields.io/badge/Evaluation-7c3aed?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Evaluation and Benchmarks"></a>
+  <a href="#3-evaluation-and-benchmark"><img src="https://img.shields.io/badge/Evaluation-7c3aed?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Evaluation and Benchmark"></a>
   <a href="#4-resources"><img src="https://img.shields.io/badge/Resources-475569?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
 </p>
 
-<p><sub><a href="#about-this-list">About</a> · <a href="#taxonomy">Taxonomy</a> · <a href="#1-clinical-landscape">Clinical Landscape</a> · <a href="#2-trustworthiness">Trustworthiness</a> · <a href="#3-evaluation-and-benchmarks">Evaluation</a> · <a href="#how-to-contribute">Contribute</a></sub></p>
+<p><sub><a href="#about-this-list">About</a> · <a href="#taxonomy">Taxonomy</a> · <a href="#1-clinical-landscape">Clinical Landscape</a> · <a href="#2-trustworthiness">Trustworthiness</a> · <a href="#3-evaluation-and-benchmark">Evaluation</a> · <a href="#how-to-contribute">Contribute</a></sub></p>
 
 </div>
 
-This repository accompanies the ongoing survey **“Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmarks.”** It connects **four clinical scales** with **six trustworthiness dimensions** and the evaluation protocols needed to study them. The paper link and formal citation will be added when the preprint is publicly released.
+This is the official companion repository for **“Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmark.”** It connects **four clinical scales** with **six trustworthiness dimensions** and the evaluation protocols needed to study them. The paper link and formal citation will be added when the preprint is publicly released.
 
 ## 📢 News
 
-- **[2026-08-10]** ✨ Introduced a clearer visual identity, quick-navigation system, and contribution-ready taxonomy.
+- **[2026-08-10]** ✨ Established the official paper repository with a clear visual identity, quick navigation, and a contribution-ready taxonomy.
 - **[2026-08-10]** 🎉 Released the initial public list with curated seed papers, evaluation resources, and validation rules.
 
 ## Table of Contents
@@ -51,7 +51,7 @@ This repository accompanies the ongoing survey **“Trustworthy Medical Multimod
   - [1.3 Individual Scale](#13-individual-scale)
   - [1.4 Population Scale](#14-population-scale)
 - [2. Trustworthiness](#2-trustworthiness)
-- [3. Evaluation and Benchmarks](#3-evaluation-and-benchmarks)
+- [3. Evaluation and Benchmark](#3-evaluation-and-benchmark)
 - [4. Resources](#4-resources)
 - [How to Contribute](#how-to-contribute)
 - [Citation](#citation)
@@ -98,7 +98,7 @@ An entry is in scope when it satisfies at least one of the following:
 | Neutral language | Avoid unsupported claims such as “first,” “best,” “expert-level,” or “clinically validated.” |
 | Explicit adjacency | Mark general-domain or unimodal work **Adjacent** and state its medical-MLLM relevance. |
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -125,7 +125,7 @@ An entry is in scope when it satisfies at least one of the following:
   <img src="https://img.shields.io/badge/Population-Cohort%20%26%20system-b45309?style=flat-square" alt="Population scale">
 </p>
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -236,7 +236,7 @@ The entries below are an initial curated seed set from the current manuscript. T
 | **Med-Gemini** | Preprint, 2024 | [Paper](https://arxiv.org/abs/2404.18416) | Broad medical reasoning and multimodal assistance | Generalist medical AI family spanning multiple healthcare tasks and modalities. |
 | **Agent Hospital** | Preprint, 2024 | [Paper](https://arxiv.org/abs/2405.02957) | Simulated hospital and clinical workflow | Multi-agent simulation of healthcare interactions for training and evaluation. |
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -277,11 +277,11 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **MedVLM-R1** | MICCAI, 2025 | [Paper](https://doi.org/10.1007/978-3-032-04981-0_32) | Medical images and reasoning | Studies reasoning behavior in medical vision-language models. |
 | **ScanReason** | MICCAI, 2024 | [Paper](https://doi.org/10.1007/978-3-031-73242-3_9) | 3D medical imaging and language | Connects volumetric image understanding with explicit reasoning. |
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
-## 3. Evaluation and Benchmarks
+## 3. Evaluation and Benchmark
 
 **In this section:** [Evaluation Paradigms](#31-evaluation-paradigms) · [Seed Evaluation Resources](#32-seed-evaluation-resources)
 
@@ -304,7 +304,7 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **PromptSmooth** | MICCAI, 2024 | [Paper](https://doi.org/10.1007/978-3-031-72390-2_65) | Prompt robustness | Evaluates stability under prompt variation. |
 | **FairCLIP** | CVPR, 2024 | [Paper](https://doi.org/10.1109/CVPR52733.2024.01168) | Group fairness | Measures and mitigates fairness gaps in medical vision-language learning. |
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -328,7 +328,7 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **MedAgentBench** | Evaluation of agents interacting with clinical environments | [Paper](https://doi.org/10.1056/AIdbp2500144) |
 | **MedSafetyBench** | Medically grounded safety taxonomy and benchmark | [Paper](https://arxiv.org/abs/2403.03744) |
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -364,7 +364,7 @@ Omit unavailable links rather than adding empty placeholders. Use only official 
 
 Before opening a pull request, check that every URL resolves and that the entry is not already listed under another name.
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -373,16 +373,16 @@ Before opening a pull request, check that every URL resolves and that the entry 
 The manuscript is in preparation. Its formal BibTeX entry will be added after the preprint receives a permanent public identifier. Until then, the repository can be cited as:
 
 ```bibtex
-@misc{awesome-trustworthy-medical-mllms-2026,
-  title  = {Awesome Trustworthy Medical MLLMs},
-  author = {Mao, Junyuan and Survey Contributors},
+@misc{trustworthy-medical-mllms-survey-2026,
+  title  = {Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmark},
+  author = {Li, Qiankun and Mao, Junyuan and Li, Jinyue and Hao, Rui and Chen, Huabao and Chen, Guanyu and Meng, Linghao and others},
   year   = {2026},
-  url    = {https://github.com/junyuanM/Awesome-Trustworthy-Medical-MLLMs},
-  note   = {Curated survey repository}
+  url    = {https://github.com/junyuanM/Trustworthy-Medical-MLLMs-Survey},
+  note   = {Official companion repository; formal paper citation forthcoming}
 }
 ```
 
-<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+<p align="right"><a href="#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark">Back to Top</a></p>
 
 ---
 
@@ -394,8 +394,8 @@ The curated list and repository maintenance materials are released under the [MI
 
 <img src="https://img.shields.io/badge/If%20this%20repo%20helps-Star%20it-111827?style=for-the-badge&logo=github&logoColor=white" alt="Star this repository">
 
-<p><strong>Maintained for the trustworthy medical multimodal research community.</strong></p>
+<p><strong>Official resources for the Trustworthy Medical Multimodal Large Language Models survey.</strong></p>
 
-[Back to Top](#awesome-trustworthy-medical-mllms)
+[Back to Top](#trustworthy-medical-multimodal-large-language-models-a-survey-of-taxonomy-evaluation-and-benchmark)
 
 </div>
