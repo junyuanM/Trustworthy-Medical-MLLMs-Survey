@@ -23,7 +23,7 @@ SOFTWARE.
 Asset exception
 ---------------
 
-The file `assets/overview.png` is not covered by the MIT License above. It is
-an overview figure from the associated manuscript and remains copyright (c)
-2026 the manuscript authors. All rights are reserved unless a separate license
-is stated when the manuscript is publicly released.
+The PNG files under `assets/` are not covered by the MIT License above. They
+are figures from the associated manuscript and remain copyright (c) 2026 the
+manuscript authors. All rights are reserved unless a separate license is stated
+when the manuscript is publicly released.
