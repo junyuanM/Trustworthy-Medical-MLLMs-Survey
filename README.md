@@ -1,41 +1,82 @@
+<div align="center">
+
+<p>
+  <img src="assets/logo.svg" width="176" alt="Trustworthy Medical MLLM shield logo"/>
+</p>
+
 # Awesome Trustworthy Medical MLLMs
 
-> A curated collection of medical multimodal large language models, trustworthiness methods, evaluation protocols, and benchmarks.
+<p><strong>A Structured Survey & Curated List of Trustworthy Medical Multimodal Large Language Models</strong><br/><sub>From clinical applications to responsible evaluation and deployment</sub></p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+<p>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <a href="https://github.com/junyuanM/Awesome-Trustworthy-Medical-MLLMs/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a?style=flat-square" alt="PRs Welcome"></a>
+  <img src="https://img.shields.io/github/stars/junyuanM/Awesome-Trustworthy-Medical-MLLMs?style=flat-square" alt="GitHub Stars">
+  <img src="https://img.shields.io/badge/Last_Update-2026_Q3-2563eb?style=flat-square" alt="Last Updated 2026 Q3">
+  <img src="https://img.shields.io/badge/Paper-In_Preparation-7c3aed?style=flat-square" alt="Paper in preparation">
+  <img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square" alt="MIT License">
+</p>
 
-This repository accompanies the ongoing survey **“Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmarks.”** It organizes the field along two complementary axes:
+<p>
+  <a href="#1-clinical-landscape"><img src="https://img.shields.io/badge/Clinical_Landscape-1d4ed8?style=for-the-badge&logo=googlefit&logoColor=white" alt="Clinical Landscape"></a>
+  <a href="#2-trustworthiness"><img src="https://img.shields.io/badge/Trustworthiness-0f766e?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Trustworthiness"></a>
+  <a href="#3-evaluation-and-benchmarks"><img src="https://img.shields.io/badge/Evaluation-7c3aed?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Evaluation and Benchmarks"></a>
+  <a href="#4-resources"><img src="https://img.shields.io/badge/Resources-475569?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
+</p>
 
-- **Clinical scale:** tissue, organ, individual, and population.
-- **Trustworthiness:** truthfulness, robustness, fairness, safety, privacy, and explainability.
+<p><sub><a href="#about-this-list">About</a> · <a href="#taxonomy">Taxonomy</a> · <a href="#1-clinical-landscape">Clinical Landscape</a> · <a href="#2-trustworthiness">Trustworthiness</a> · <a href="#3-evaluation-and-benchmarks">Evaluation</a> · <a href="#how-to-contribute">Contribute</a></sub></p>
 
-The paper link and formal citation will be added when the preprint is publicly released.
+</div>
 
-## News
+This repository accompanies the ongoing survey **“Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmarks.”** It connects **four clinical scales** with **six trustworthiness dimensions** and the evaluation protocols needed to study them. The paper link and formal citation will be added when the preprint is publicly released.
 
-- **2026-08-10:** Initial public release with the survey taxonomy, curated seed papers, evaluation resources, and contribution rules.
+## 📢 News
+
+- **[2026-08-10]** ✨ Introduced a clearer visual identity, quick-navigation system, and contribution-ready taxonomy.
+- **[2026-08-10]** 🎉 Released the initial public list with curated seed papers, evaluation resources, and validation rules.
 
 ## Table of Contents
 
-- [About](#about)
+<details open>
+<summary><strong>Browse the list</strong></summary>
+
+- [About This List](#about-this-list)
+  - [At a Glance](#at-a-glance)
+  - [Scope and Inclusion Boundary](#scope-and-inclusion-boundary)
+  - [Curation Principles](#curation-principles)
 - [Taxonomy](#taxonomy)
-- [Clinical Landscape](#clinical-landscape)
-  - [Tissue Scale](#tissue-scale)
-  - [Organ Scale](#organ-scale)
-  - [Individual Scale](#individual-scale)
-  - [Population Scale](#population-scale)
-- [Trustworthiness](#trustworthiness)
-- [Evaluation and Benchmarks](#evaluation-and-benchmarks)
-- [Contributing](#contributing)
+- [1. Clinical Landscape](#1-clinical-landscape)
+  - [1.1 Tissue Scale](#11-tissue-scale)
+  - [1.2 Organ Scale](#12-organ-scale)
+  - [1.3 Individual Scale](#13-individual-scale)
+  - [1.4 Population Scale](#14-population-scale)
+- [2. Trustworthiness](#2-trustworthiness)
+- [3. Evaluation and Benchmarks](#3-evaluation-and-benchmarks)
+- [4. Resources](#4-resources)
+- [How to Contribute](#how-to-contribute)
 - [Citation](#citation)
 - [License](#license)
 
-## About
+</details>
 
-Medical MLLMs combine language with one or more clinically meaningful modalities, such as pathology slides, radiology images, retinal images, endoscopy video, physiological signals, or longitudinal health records. This list focuses on resources that help researchers understand where these systems are used, how their trustworthiness is studied, and how they are evaluated.
+## About This List
 
-### Scope
+**In this section:** [At a Glance](#at-a-glance) · [Scope and Inclusion Boundary](#scope-and-inclusion-boundary) · [Curation Principles](#curation-principles)
+
+Medical MLLMs combine language with one or more clinically meaningful modalities, such as pathology slides, radiology images, retinal images, endoscopy video, physiological signals, or longitudinal health records. This list focuses on **where these systems are used**, **which trust properties are studied**, and **how those properties are evaluated**.
+
+### At a Glance
+
+| Dimension | Coverage |
+|---|---|
+| Primary scope | Medical and healthcare MLLMs with at least one substantive non-text modality |
+| Clinical taxonomy | Tissue · Organ · Individual · Population |
+| Trust taxonomy | Truthfulness · Robustness · Fairness · Safety · Privacy · Explainability |
+| Evaluation scope | Automated metrics · Model-based judging · Expert assessment · Dynamic/workflow evaluation |
+| What makes this list different | A two-axis taxonomy connecting clinical scale with explicit trustworthiness evidence |
+| Intended audience | Researchers, clinicians, benchmark designers, reviewers, and responsible-AI practitioners |
+
+### Scope and Inclusion Boundary
 
 An entry is in scope when it satisfies at least one of the following:
 
@@ -44,18 +85,30 @@ An entry is in scope when it satisfies at least one of the following:
 3. It introduces an evaluation method or benchmark directly useful for trustworthy medical MLLMs.
 4. It is an adjacent general-domain or unimodal resource with a clearly stated methodological connection to this field.
 
+> **Scope rule:** adjacent work is included only when its relevance to medical MLLMs is explicit. It is always marked **Adjacent** rather than mixed silently with direct medical-MLLM evidence.
+
 ### Curation Principles
 
-- **Classification first:** every entry must be assigned to the most specific clinical scale, specialty, and/or trustworthiness dimension.
-- **Reason required:** contributors must explain why the proposed classification is appropriate.
-- **Primary sources:** link the paper and official code, model, dataset, or project page whenever available.
-- **Uniform fields:** use the labels `Paper`, `Code`, `HF`, `Data`, `Project`, and `Notes` consistently.
-- **Neutral notes:** describe the resource without unsupported claims such as “first,” “best,” or “clinically validated.”
-- **Explicit adjacency:** general-domain or unimodal work is marked **Adjacent** and must include a medical-MLLM relevance rationale.
+| Principle | Rule |
+|---|---|
+| Classification first | Assign every entry to the most specific clinical scale, specialty, and/or trustworthiness dimension. |
+| Reason required | Explain why the proposed classification is appropriate. |
+| Source quality | Prefer peer-reviewed proceedings, arXiv, and official project, code, model, or dataset pages. |
+| Uniform fields | Use `Paper`, `Code`, `HF`, `Data`, `Project`, and `Notes` consistently. |
+| Neutral language | Avoid unsupported claims such as “first,” “best,” “expert-level,” or “clinically validated.” |
+| Explicit adjacency | Mark general-domain or unimodal work **Adjacent** and state its medical-MLLM relevance. |
+
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
 
 ## Taxonomy
 
-![Survey taxonomy spanning clinical scales and trustworthiness dimensions](assets/overview.png)
+<p align="center">
+  <img src="assets/overview.png" width="920" alt="Survey taxonomy spanning clinical scales and trustworthiness dimensions"/>
+  <br/>
+  <em>The survey framework connects clinical application scales with six dimensions of trustworthy medical MLLMs.</em>
+</p>
 
 | Axis | Categories | Organizing question |
 |---|---|---|
@@ -63,11 +116,30 @@ An entry is in scope when it satisfies at least one of the following:
 | Trustworthiness | Truthfulness · Robustness · Fairness · Safety · Privacy · Explainability | Which property of reliable and responsible deployment is studied? |
 | Evaluation | Automated metrics · Model-based judging · Expert assessment · Dynamic/workflow evaluation | How is trustworthy behavior measured? |
 
-## Clinical Landscape
+> **Clinical-scale assignment rule:** classify an entry by the lowest level at which its primary prediction, decision, or intervention is made—not merely by the modality it consumes.
 
-The entries below are an initial curated seed set from the current manuscript. They are not intended to be exhaustive; contributions are welcome under the rules in [Contributing](#contributing).
+<p align="center">
+  <img src="https://img.shields.io/badge/Tissue-Microscopic%20structure-1d4ed8?style=flat-square" alt="Tissue scale">
+  <img src="https://img.shields.io/badge/Organ-Specialty%20imaging-6d28d9?style=flat-square" alt="Organ scale">
+  <img src="https://img.shields.io/badge/Individual-Longitudinal%20patient-0f766e?style=flat-square" alt="Individual scale">
+  <img src="https://img.shields.io/badge/Population-Cohort%20%26%20system-b45309?style=flat-square" alt="Population scale">
+</p>
 
-### Tissue Scale
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
+
+## 1. Clinical Landscape
+
+**In this section:** [Tissue](#11-tissue-scale) · [Organ](#12-organ-scale) · [Individual](#13-individual-scale) · [Population](#14-population-scale)
+
+The entries below are an initial curated seed set from the current manuscript. They are not intended to be exhaustive; contributions are welcome under the rules in [How to Contribute](#how-to-contribute).
+
+### 1.1 Tissue Scale
+
+<img src="https://img.shields.io/badge/Scale-Tissue-1d4ed8?style=flat-square" alt="Tissue scale"> <img src="https://img.shields.io/badge/Focus-Microscopic%20morphology-2563eb?style=flat-square" alt="Microscopic morphology">
+
+> Models centered on cellular, microscopic, or tissue morphology. Whole-slide pathology and lesion-level dermatology belong here when the primary evidence is tissue structure.
 
 #### Pathology
 
@@ -83,7 +155,11 @@ The entries below are an initial curated seed set from the current manuscript. T
 |---|---|---|---|---|
 | **Derm1M** | Preprint, 2025 | [Paper](https://arxiv.org/abs/2503.14911) | Dermatology images and language | Vision-language foundation model resource for dermatology. |
 
-### Organ Scale
+### 1.2 Organ Scale
+
+<img src="https://img.shields.io/badge/Scale-Organ-6d28d9?style=flat-square" alt="Organ scale"> <img src="https://img.shields.io/badge/Focus-Specialty%20imaging-7c3aed?style=flat-square" alt="Specialty imaging">
+
+> Models organized around an organ, imaging specialty, or organ-specific procedure, including radiology, ophthalmology, endoscopy, and surgery.
 
 #### Radiology
 
@@ -115,7 +191,11 @@ The entries below are an initial curated seed set from the current manuscript. T
 | **LLM-assisted surgical VQA** | ICRA, 2024 | [Paper](https://doi.org/10.1109/ICRA57147.2024.10610603) | Surgical video and question answering | Studies language-model assistance for surgical visual question answering. |
 | **Surgical embodied intelligence** | Science Robotics, 2025 | [Paper](https://doi.org/10.1126/scirobotics.adt3093) | Surgical perception, language, and action | Connects multimodal reasoning with embodied surgical tasks. |
 
-### Individual Scale
+### 1.3 Individual Scale
+
+<img src="https://img.shields.io/badge/Scale-Individual-0f766e?style=flat-square" alt="Individual scale"> <img src="https://img.shields.io/badge/Focus-Longitudinal%20patient-0d9488?style=flat-square" alt="Longitudinal patient">
+
+> Models that integrate records, signals, observations, tools, or decisions around a patient over time.
 
 #### Electronic Health Records
 
@@ -144,7 +224,11 @@ The entries below are an initial curated seed set from the current manuscript. T
 |---|---|---|---|---|
 | **MedAgentBench** | NEJM AI, 2025 | [Paper](https://doi.org/10.1056/AIdbp2500144) | Clinical records, tools, and workflow tasks | Benchmark for agents interacting with clinical environments. |
 
-### Population Scale
+### 1.4 Population Scale
+
+<img src="https://img.shields.io/badge/Scale-Population-b45309?style=flat-square" alt="Population scale"> <img src="https://img.shields.io/badge/Focus-Cohort%20%26%20system-d97706?style=flat-square" alt="Cohort and health system">
+
+> Models whose primary unit of analysis is a cohort, healthcare system, public-health process, or policy simulation.
 
 | Model or resource | Venue | Links | Population-level setting | Notes |
 |---|---|---|---|---|
@@ -152,9 +236,24 @@ The entries below are an initial curated seed set from the current manuscript. T
 | **Med-Gemini** | Preprint, 2024 | [Paper](https://arxiv.org/abs/2404.18416) | Broad medical reasoning and multimodal assistance | Generalist medical AI family spanning multiple healthcare tasks and modalities. |
 | **Agent Hospital** | Preprint, 2024 | [Paper](https://arxiv.org/abs/2405.02957) | Simulated hospital and clinical workflow | Multi-agent simulation of healthcare interactions for training and evaluation. |
 
-## Trustworthiness
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
+
+## 2. Trustworthiness
+
+**In this section:** [Dimension Definitions](#2-trustworthiness) · [Methods and Resources](#21-trustworthiness-methods-and-resources)
 
 The six dimensions are treated as distinct classification targets. A paper may appear in multiple dimensions when each assignment is justified by an explicit evaluation, method, or stated objective.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Truthfulness-Clinical%20grounding-2563eb?style=flat-square" alt="Truthfulness">
+  <img src="https://img.shields.io/badge/Robustness-Stability-4f46e5?style=flat-square" alt="Robustness">
+  <img src="https://img.shields.io/badge/Fairness-Group%20equity-7c3aed?style=flat-square" alt="Fairness">
+  <img src="https://img.shields.io/badge/Safety-Harm%20avoidance-dc2626?style=flat-square" alt="Safety">
+  <img src="https://img.shields.io/badge/Privacy-Data%20protection-0f766e?style=flat-square" alt="Privacy">
+  <img src="https://img.shields.io/badge/Explainability-Inspectable%20evidence-b45309?style=flat-square" alt="Explainability">
+</p>
 
 | Dimension | Working definition | Representative resources |
 |---|---|---|
@@ -165,7 +264,7 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **Privacy** | Protection against memorization, leakage, re-identification, and misuse of sensitive health information. | [CARES](https://arxiv.org/abs/2406.06007) · [Privacy review](https://doi.org/10.3390/info15110697) |
 | **Explainability** | Human-interpretable evidence, localization, rationales, or reasoning traces that can be examined in context. | [PathVG](https://doi.org/10.1007/978-3-032-05169-1_44) · [MedVLM-R1](https://doi.org/10.1007/978-3-032-04981-0_32) · [ScanReason](https://doi.org/10.1007/978-3-031-73242-3_9) |
 
-### Trustworthiness Methods and Resources
+### 2.1 Trustworthiness Methods and Resources
 
 | Method or resource | Venue | Links | Clinical context | Focus and classification rationale |
 |---|---|---|---|---|
@@ -178,9 +277,15 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **MedVLM-R1** | MICCAI, 2025 | [Paper](https://doi.org/10.1007/978-3-032-04981-0_32) | Medical images and reasoning | Studies reasoning behavior in medical vision-language models. |
 | **ScanReason** | MICCAI, 2024 | [Paper](https://doi.org/10.1007/978-3-031-73242-3_9) | 3D medical imaging and language | Connects volumetric image understanding with explicit reasoning. |
 
-## Evaluation and Benchmarks
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
 
-### Evaluation Paradigms
+---
+
+## 3. Evaluation and Benchmarks
+
+**In this section:** [Evaluation Paradigms](#31-evaluation-paradigms) · [Seed Evaluation Resources](#32-seed-evaluation-resources)
+
+### 3.1 Evaluation Paradigms
 
 | Paradigm | Typical evidence | Main limitation to report |
 |---|---|---|
@@ -189,7 +294,7 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **Expert assessment** | Clinician ratings, pairwise preference, error severity, and workflow usefulness | Expensive, specialty-dependent, and sensitive to study design. |
 | **Dynamic/workflow evaluation** | Tool use, longitudinal state changes, interactive cases, and simulated environments | Reproducibility and environment realism can be difficult to establish. |
 
-### Seed Evaluation Resources
+### 3.2 Seed Evaluation Resources
 
 | Benchmark or resource | Venue | Links | Primary target | Notes |
 |---|---|---|---|---|
@@ -199,7 +304,37 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **PromptSmooth** | MICCAI, 2024 | [Paper](https://doi.org/10.1007/978-3-031-72390-2_65) | Prompt robustness | Evaluates stability under prompt variation. |
 | **FairCLIP** | CVPR, 2024 | [Paper](https://doi.org/10.1109/CVPR52733.2024.01168) | Group fairness | Measures and mitigates fairness gaps in medical vision-language learning. |
 
-## Contributing
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
+
+## 4. Resources
+
+**In this section:** [Related Lists](#41-related-lists) · [Evaluation Projects](#42-evaluation-projects)
+
+### 4.1 Related Lists
+
+| Repository | Focus | Link |
+|---|---|---|
+| **Awesome Multimodal Modeling** | Architecture-first taxonomy for multimodal models | [Repository](https://github.com/OpenEnvision/Awesome-Multimodal-Modeling) |
+| **Awesome Multimodal Large Language Models** | Broad MLLM papers, datasets, and evaluation resources | [Repository](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) |
+| **MLLM4BioMed** | Biomedical MLLMs organized by medical domain | [Repository](https://github.com/ncbi-nlp/MLLM4BioMed) |
+
+### 4.2 Evaluation Projects
+
+| Resource | Focus | Links |
+|---|---|---|
+| **CARES** | Multi-dimensional responsible-AI assessment for medical vision-language models | [Paper](https://arxiv.org/abs/2406.06007) · [Project](https://cares-ai.github.io/) · [Code](https://github.com/richard-peng-xia/CARES) |
+| **MedAgentBench** | Evaluation of agents interacting with clinical environments | [Paper](https://doi.org/10.1056/AIdbp2500144) |
+| **MedSafetyBench** | Medically grounded safety taxonomy and benchmark | [Paper](https://arxiv.org/abs/2403.03744) |
+
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
+
+## How to Contribute
+
+**In this section:** [Entry Format](#required-entry-format) · [Submission Checklist](#submission-checklist) · [Classification Checks](#classification-checks)
 
 Contributions are welcome through pull requests. To keep the list consistent and reviewable, every proposed entry must include both a normalized record and a short classification justification.
 
@@ -211,13 +346,13 @@ Contributions are welcome through pull requests. To keep the list consistent and
 
 Omit unavailable links rather than adding empty placeholders. Use only official or primary URLs.
 
-### Required Pull Request Information
+### Submission Checklist
 
-1. **Proposed section:** the most specific clinical scale/specialty, trustworthiness dimension, or evaluation category.
-2. **Classification reason:** one or two sentences explaining why the entry belongs there.
-3. **Evidence:** a primary paper link and, when available, official code, weights, dataset, or project links.
-4. **Neutral note:** what the resource contributes, without promotional or unsupported claims.
-5. **Adjacency statement:** required when the work is not itself a medical MLLM.
+- [ ] **Proposed section:** the most specific clinical scale/specialty, trustworthiness dimension, or evaluation category.
+- [ ] **Classification reason:** one or two sentences explaining why the entry belongs there.
+- [ ] **Evidence:** a primary paper link and, when available, official code, weights, dataset, or project links.
+- [ ] **Neutral note:** what the resource contributes, without promotional or unsupported claims.
+- [ ] **Adjacency statement:** required when the work is not itself a medical MLLM.
 
 ### Classification Checks
 
@@ -229,12 +364,38 @@ Omit unavailable links rather than adding empty placeholders. Use only official 
 
 Before opening a pull request, check that every URL resolves and that the entry is not already listed under another name.
 
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
+
 ## Citation
 
-The manuscript is in preparation. The BibTeX entry will be added after the preprint receives a permanent public identifier.
+The manuscript is in preparation. Its formal BibTeX entry will be added after the preprint receives a permanent public identifier. Until then, the repository can be cited as:
 
-If this repository helps your work before then, please cite the repository URL and access date.
+```bibtex
+@misc{awesome-trustworthy-medical-mllms-2026,
+  title  = {Awesome Trustworthy Medical MLLMs},
+  author = {Mao, Junyuan and Survey Contributors},
+  year   = {2026},
+  url    = {https://github.com/junyuanM/Awesome-Trustworthy-Medical-MLLMs},
+  note   = {Curated survey repository}
+}
+```
+
+<p align="right"><a href="#awesome-trustworthy-medical-mllms">Back to Top</a></p>
+
+---
 
 ## License
 
 The curated list and repository maintenance materials are released under the [MIT License](LICENSE). The survey overview figure in `assets/overview.png` is excluded from the MIT License and remains copyright of the manuscript authors; see [LICENSE](LICENSE) for details.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/If%20this%20repo%20helps-Star%20it-111827?style=for-the-badge&logo=github&logoColor=white" alt="Star this repository">
+
+<p><strong>Maintained for the trustworthy medical multimodal research community.</strong></p>
+
+[Back to Top](#awesome-trustworthy-medical-mllms)
+
+</div>

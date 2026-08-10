@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Trustworthy Medical MLLM logo</title>
+  <desc id="desc">A medical cross inside a gradient shield, surrounded by six connected multimodal nodes.</desc>
+  <defs>
+    <linearGradient id="shield" x1="42" y1="30" x2="190" y2="205" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.48" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="cross" x1="82" y1="72" x2="157" y2="157" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="31" y1="44" x2="208" y2="196" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#172554" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke="url(#orbit)" stroke-linecap="round">
+    <circle cx="120" cy="120" r="94" stroke-width="2" stroke-dasharray="3 9" opacity="0.72"/>
+    <path d="M42 68 82 91M198 68l-40 23M26 127l50-2M214 127l-50-2M52 186l38-31M188 186l-38-31" stroke-width="2.5" opacity="0.8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M120 35c20 16 45 24 71 27v51c0 48-28 79-71 99-43-20-71-51-71-99V62c26-3 51-11 71-27Z" fill="url(#shield)"/>
+    <path d="M120 50c17 12 37 19 57 23v40c0 38-20 64-57 83-37-19-57-45-57-83V73c20-4 40-11 57-23Z" fill="none" stroke="#c7d2fe" stroke-opacity="0.56" stroke-width="2"/>
+    <rect x="103" y="76" width="34" height="88" rx="9" fill="url(#cross)"/>
+    <rect x="76" y="103" width="88" height="34" rx="9" fill="url(#cross)"/>
+    <circle cx="120" cy="120" r="11" fill="#2563eb" opacity="0.14"/>
+  </g>
+
+  <g fill="#ffffff" stroke="url(#orbit)" stroke-width="4">
+    <circle cx="42" cy="68" r="10"/>
+    <circle cx="198" cy="68" r="10"/>
+    <circle cx="26" cy="127" r="10"/>
+    <circle cx="214" cy="127" r="10"/>
+    <circle cx="52" cy="186" r="10"/>
+    <circle cx="188" cy="186" r="10"/>
+  </g>
+  <g fill="#4f46e5">
+    <circle cx="42" cy="68" r="3.5"/>
+    <circle cx="198" cy="68" r="3.5"/>
+    <circle cx="26" cy="127" r="3.5"/>
+    <circle cx="214" cy="127" r="3.5"/>
+    <circle cx="52" cy="186" r="3.5"/>
+    <circle cx="188" cy="186" r="3.5"/>
+  </g>
+</svg>
