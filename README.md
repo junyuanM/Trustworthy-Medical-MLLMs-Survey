@@ -32,6 +32,7 @@ This is the official companion repository for **“Trustworthy Medical Multimoda
 
 ## 📢 News
 
+- **[2026-08-10]** 🖼️ Published the complete seven-figure survey framework: overview plus six trustworthiness dimensions.
 - **[2026-08-10]** ✨ Established the official paper repository with a clear visual identity, quick navigation, and a contribution-ready taxonomy.
 - **[2026-08-10]** 🎉 Released the initial public list with curated seed papers, evaluation resources, and validation rules.
 
@@ -51,6 +52,8 @@ This is the official companion repository for **“Trustworthy Medical Multimoda
   - [1.3 Individual Scale](#13-individual-scale)
   - [1.4 Population Scale](#14-population-scale)
 - [2. Trustworthiness](#2-trustworthiness)
+  - [2.1 Dimension Frameworks](#21-dimension-frameworks)
+  - [2.2 Trustworthiness Methods and Resources](#22-trustworthiness-methods-and-resources)
 - [3. Evaluation and Benchmark](#3-evaluation-and-benchmark)
 - [4. Resources](#4-resources)
 - [How to Contribute](#how-to-contribute)
@@ -242,7 +245,7 @@ The entries below are an initial curated seed set from the current manuscript. T
 
 ## 2. Trustworthiness
 
-**In this section:** [Dimension Definitions](#2-trustworthiness) · [Methods and Resources](#21-trustworthiness-methods-and-resources)
+**In this section:** [Dimension Definitions](#2-trustworthiness) · [Dimension Frameworks](#21-dimension-frameworks) · [Methods and Resources](#22-trustworthiness-methods-and-resources)
 
 The six dimensions are treated as distinct classification targets. A paper may appear in multiple dimensions when each assignment is justified by an explicit evaluation, method, or stated objective.
 
@@ -264,7 +267,59 @@ The six dimensions are treated as distinct classification targets. A paper may a
 | **Privacy** | Protection against memorization, leakage, re-identification, and misuse of sensitive health information. | [CARES](https://arxiv.org/abs/2406.06007) · [Privacy review](https://doi.org/10.3390/info15110697) |
 | **Explainability** | Human-interpretable evidence, localization, rationales, or reasoning traces that can be examined in context. | [PathVG](https://doi.org/10.1007/978-3-032-05169-1_44) · [MedVLM-R1](https://doi.org/10.1007/978-3-032-04981-0_32) · [ScanReason](https://doi.org/10.1007/978-3-031-73242-3_9) |
 
-### 2.1 Trustworthiness Methods and Resources
+### 2.1 Dimension Frameworks
+
+The survey develops a dedicated visual framework for every trustworthiness dimension. Select any figure to open its full-resolution version.
+
+#### Truthfulness
+
+<p align="center">
+  <a href="assets/truthfulness.png"><img src="assets/truthfulness.png" width="920" alt="Truthfulness framework for trustworthy medical MLLMs"/></a>
+  <br/>
+  <em>Multi-source evidence, hallucination failure modes, mitigation strategies, and claim-level validation.</em>
+</p>
+
+#### Robustness
+
+<p align="center">
+  <a href="assets/robustness.png"><img src="assets/robustness.png" width="920" alt="Robustness framework for medical MLLMs"/></a>
+  <br/>
+  <em>Failure modes and mitigations for distribution shift, data perturbation, missing modalities, and prompt volatility.</em>
+</p>
+
+#### Fairness
+
+<p align="center">
+  <a href="assets/fairness.png"><img src="assets/fairness.png" width="920" alt="Fairness framework for medical MLLMs"/></a>
+  <br/>
+  <em>Structural bias, subgroup degradation, and data- and algorithm-centric mitigation strategies.</em>
+</p>
+
+#### Safety
+
+<p align="center">
+  <a href="assets/safety.png"><img src="assets/safety.png" width="920" alt="Safety framework across medical AI scenarios"/></a>
+  <br/>
+  <em>Attack surfaces, clinical consequences, defense mechanisms, and evaluation workflow.</em>
+</p>
+
+#### Privacy
+
+<p align="center">
+  <a href="assets/privacy.png"><img src="assets/privacy.png" width="920" alt="Privacy preservation framework for medical MLLMs"/></a>
+  <br/>
+  <em>Privacy protection across preprocessing, training, and post-processing stages of the model lifecycle.</em>
+</p>
+
+#### Explainability
+
+<p align="center">
+  <a href="assets/explainability.png"><img src="assets/explainability.png" width="760" alt="Explainability framework for medical MLLMs"/></a>
+  <br/>
+  <em>Post-hoc and intrinsic explanations spanning visual evidence, reasoning structures, and clinician interaction.</em>
+</p>
+
+### 2.2 Trustworthiness Methods and Resources
 
 | Method or resource | Venue | Links | Clinical context | Focus and classification rationale |
 |---|---|---|---|---|
@@ -388,7 +443,7 @@ The manuscript is in preparation. Its formal BibTeX entry will be added after th
 
 ## License
 
-The curated list and repository maintenance materials are released under the [MIT License](LICENSE). The survey overview figure in `assets/overview.png` is excluded from the MIT License and remains copyright of the manuscript authors; see [LICENSE](LICENSE) for details.
+The curated list and repository maintenance materials are released under the [MIT License](LICENSE). The manuscript figures in `assets/*.png` are excluded from the MIT License and remain copyright of the manuscript authors; see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
