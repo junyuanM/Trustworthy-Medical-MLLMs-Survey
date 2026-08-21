@@ -30,6 +30,14 @@
 
 This is the official companion repository for **“Trustworthy Medical Multimodal Large Language Models: A Survey of Taxonomy, Evaluation, and Benchmark.”** It connects **four clinical scales** with **six trustworthiness dimensions** and the evaluation protocols needed to study them. The paper link and formal citation will be added when the preprint is publicly released.
 
+## Maintainers
+
+<p align="center">
+  <a href="https://github.com/qklee-lz"><img src="https://github.com/qklee-lz.png?size=96" width="72" alt="Qiankun Li"/><br/><strong>Qiankun Li</strong></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/junyuanM"><img src="https://github.com/junyuanM.png?size=96" width="72" alt="Junyuan Mao"/><br/><strong>Junyuan Mao</strong></a>
+</p>
+
 ## 📢 News
 
 - **[2026-08-10]** 🖼️ Published the complete seven-figure survey framework: overview plus six trustworthiness dimensions.
@@ -41,6 +49,7 @@ This is the official companion repository for **“Trustworthy Medical Multimoda
 <details open>
 <summary><strong>Browse the list</strong></summary>
 
+- [Maintainers](#maintainers)
 - [About This List](#about-this-list)
   - [At a Glance](#at-a-glance)
   - [Scope and Inclusion Boundary](#scope-and-inclusion-boundary)
